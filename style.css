@@ -1,0 +1,138 @@
+/* google font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&display=swap');
+
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+*{
+  margin:0px;
+  padding: 0px;
+
+}
+
+
+/* root  */
+:root{
+  --text-color-primary:rgba(255, 255, 255, 0.5);
+  --text-color-white:rgb(255, 255, 255);
+  --text-color-danger:rgb(230, 83, 60);
+
+  --bg-dark:#000000;
+  --bg-header:linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 1)100%);
+  
+  --bg-secondary:rgb(34, 34,34,);
+  --bg-btn:rgb(230, 83, 60);
+
+
+
+}
+
+/* shared style  */
+.display-flex{
+  display: flex;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  color:var(--text-color-primary);
+  font-weight:400;
+  font-size:1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.0187rem;
+}
+.btn{
+  
+}
+
+
+/* header section style start */
+.header-section{
+  background:var(--bg-header);
+  
+}
+.container{
+ max-width:80%;
+  margin:0px auto;
+  padding: 57PX;
+}
+
+
+
+
+/* header section style end */
+.navber{
+  
+  justify-content: space-between;
+  align-items:center;
+}
+.brand-name>a{
+  font-size:36px;
+  font-weight:800;
+  color:var(--bg-btn);
+}
+
+.nav-links .link{
+  list-style: none;
+  margin-left: 67px;
+}
+.nav-links .link .link-item{
+  color:#fff;
+}
+.nav-links .link .home{
+  background-color: var(--bg-btn);
+  padding:5px 15px;
+  border-radius: 30px;
+}
+.fa-bars{
+  display: none;
+}
+
+/* banner section style */
+.banner-container{
+  justify-content: space-between;
+  align-items: center;
+  margin-top:2rem;
+}
+.banner-title h1{
+  font-size:4.875rem;
+  font-weight:900;
+  line-height:120%;
+  color:var(--text-color-white);
+}
+#shape{
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-weight: 400; 
+}
+.banner-image{
+
+}
+/* Responsive  style start */
+
+/*  Navber section style */
+@media screen and (max-width:576px){
+      .brand-name{
+        font-size:26px;
+        font-weight:600;
+
+      }
+      .nav-item{
+        display: none;
+      }
+      .fa-bars{
+          display:block;
+          color:#fff;
+          font-size:26px;
+          font-weight:600;
+          }
+/* banner section style responsive */
+    .banner-container{
+      flex-direction: column;
+    }
+}
