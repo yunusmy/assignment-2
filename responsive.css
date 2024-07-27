@@ -1,13 +1,1 @@
 
-@media screen and (max-width:576px){
-
-      .nav-item{
-        background-color: red;
-        display: none;
-      }
-      .fa-bars{
-          display:block;
-          color:#fff;
-          }
-  
-}
