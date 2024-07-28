@@ -150,11 +150,10 @@ p{
   bottom:75px;
   left:-75px;
 }
-.video{
-  width: 20px;
-  height:20px;
-  background-color: var(--text-color-danger);
-  border-radius:50%;
+.fa-play{
+  
+  color: var(--text-color-danger);
+  margin-left:10px;
 
 }
 .text-v{
@@ -341,40 +340,33 @@ table td{
   font-weight:700;
   margin-bottom: 20px;
 }
+/* form */
 .form-one{
-  margin-top:1.25rem;
-  
+  /* border:1px solid red; */
 }
-input{
-  background-color: var(--bg-video);
-  width:46%;
-   padding: 15px 5px;
-  margin: 5px;
+ .row-one,.row-two{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:10px;
+}
 
+input{
+  width: 93%;
+  padding: 10px;
+  margin-bottom: 10px;
   border-radius: 8px;
   border: none;
-}
-
-select{
   background-color: var(--bg-video);
-   padding: 15px 10px;
-   
-  border-radius: 8px;
-  border:none;
+  
 }
-
-.option-sex{
-  width:47%;
-  margin: 5px;
-}
-.option-factor{
-  width:98%;
-  margin-top: 5px;
-
-   background-color: var(--bg-video);
-   padding: 15px 10px;
+select{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
   border-radius: 8px;
-  border:none;
+  border: none;
+  background-color: var(--bg-video);
+  
 }
 
 .btn-bmi-cal{

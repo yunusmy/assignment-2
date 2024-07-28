@@ -18,7 +18,7 @@
     }
 
 
-      .habits-images{
+ .habits-images{
   grid-template-columns: repeat(2,1fr);
   gap:5px;
 }
@@ -174,15 +174,10 @@ table{
 
 
 input{
-  width:39%
-}
-.option-sex{
-  width:42%;
+  width:89%;
 }
 
-.option-factor{
-width:88%
-}
+
 /* meet-our-title style */
 .meet-our-title h3{
   font-size:32px;
