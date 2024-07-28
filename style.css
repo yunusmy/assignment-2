@@ -157,10 +157,15 @@ p{
   border-radius:50%;
 
 }
-
+.text-v{
+  font-size:24px;
+  font-weight:900px;
+  color:var(--text-color-white);
+}
 .free-workout-video{
   width: 150px;
-  height:75px;
+  /* height:75px; */
+  padding:5px;
   background: var(--bg-video);
   display: flex;
   flex-direction: column;
@@ -169,6 +174,17 @@ p{
   position: absolute;
   top:160px;
   right:-40px;
+}
+.free-workout-video .workout{
+  font-size:40px;
+  font-weight: 900;
+  color:var(--text-color-white);
+  padding: 0px;
+  /* margin:0px; */
+}
+.free-workout-video .tex{
+  margin:0px;
+  text-align-last: center;
 }
 
 /* Change Your Habits */
@@ -189,11 +205,21 @@ margin:0px auto;
   align-items: center;
   padding:50px 0px;
 }
+
+.habits-title >h2{
+  font-size:48px;
+  font-weight:900;
+}
 .habits-images{
   display: grid;
   grid-template-columns: repeat(4,1fr);
 }
 
+.habits-images h3{
+  font-size:18px;
+  font-weight:600px;
+  color:var(--text-color-white);
+}
 .img-row img{
   border-radius:50% ;
 }
@@ -207,7 +233,11 @@ margin:0px auto;
   padding: 30px 0px;
 }
 
-
+.run-an-extra-title h2{
+  font-size:45px;
+  font-weight:900;
+  color:var(--text-color-white);
+}
 
 .row-one-img{
   display: grid;
@@ -237,6 +267,12 @@ margin:0px auto;
   border-radius:15px;
   background-color: var(--bg-video);
   margin-top:50px;
+}
+
+.trainings-title h2{
+  font-size:45px;
+  font-weight:900;
+  color:var(--text-color-white);
 }
 .run-an-extra-title > button{
   background-color: var(--text-color-danger);
@@ -369,6 +405,10 @@ select{
 .meet-our-title{
   padding: 20px 0px;
 
+}
+.meet-our-title h3{
+  font-size:48px;
+  font-weight:900px;
 }
 .meet-our-team-img{
   background-color: var(--bg-video);
@@ -575,7 +615,7 @@ height: 70vh;
   flex-direction: column;
 }
 .run-an-extra-img img{
-  
+width: 100%;
 margin:20px 5px;
 } 
 .container-bmi{
