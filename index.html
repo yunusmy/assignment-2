@@ -10,8 +10,9 @@
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- <link rel="stylesheet" href="responsive.css"> -->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+
 </head>
 
 <body class="inter-font">
@@ -141,14 +142,6 @@
 
         </div>
       </section>
-
-
-
-
-
-
-
-
       <div class="bmi-calculator">
         <h2 class="text-color">BMI Calculator</h2>
         <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or
@@ -191,15 +184,17 @@
           <p>we believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
           </p>
           <form action="" class="form-one">
-            <input type="text" placeholder="Height/cm">
-            <input type="text" placeholder="Weight/kg"><br>
-            <input type="age" placeholder="Age">
-            <select class="option-sex">
-              <option>Sex</option>
-            </select><br>
-            <select class="option-factor">
-              <option>Select an activity factor</option>
-            </select>
+            <div class="form-section">
+              <input type="text" placeholder="Height/cm">
+              <input type="text" placeholder="Weight/kg"><br>
+              <input type="age" placeholder="Age">
+              <select class="option-sex">
+                <option>Sex</option>
+              </select><br>
+              <select class="option-factor">
+                <option>Select an activity factor</option>
+              </select>
+            </div>
             <br>
             <button class="btn btn-bmi-cal">Calculator</button>
           </form>
